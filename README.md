@@ -46,4 +46,4 @@ https://user-images.githubusercontent.com/100702397/234976913-6f3017d0-9c66-4c5f
 
 <br/>
 
-> #### **과제 제출** : 과제는 `4월 30일 일요일 오후 18시 00분 전`까지 본인 repository에 push 해주신 뒤, repository url을 `lionz`에 생성되어 있는 과제 제출란에 제출해주시면 됩니다.
+> #### **과제 제출** : 과제는 `4월 30일 일요일 21시 00분 전`까지 본인 repository에 push 해주신 뒤, repository url을 `lionz`에 생성되어 있는 과제 제출란에 제출해주시면 됩니다.
