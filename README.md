@@ -19,6 +19,10 @@ _src/components/TodoList.jsx 에서 진행해주세요!_
 3. 완료한 할 일을 클릭하면 취소선이 생성되어야 합니다.
 4. 또한 완료한 할 일의 개수를 count하여, 모든 할 일을 완료하면 "오늘 할 일을 모두 완료하셨네요!"를 출력하는 알림창이 뜨도록 해주세요! (주의: 2개의 useEffect를 사용하여 구현해주세요)
 
+
+https://user-images.githubusercontent.com/100702397/234976875-2e417c23-7161-4187-b622-2f200ecad886.mp4
+
+
 모든 조건을 만족하여 다음 영상과 같이 작동하게 하려면 주석으로 처리된 칸에 어떤 코드가 들어가야 할까요?
 
 <br/>
@@ -31,6 +35,10 @@ _src/components/TodoList.jsx 에서 진행해주세요!_
 
 1. 완료한 할 일의 개수를 count 하는 코드를 `filter 메서드를 사용하도록 수정`하여 같은 결과를 내도록 구현해주세요!
 2. 각 todo 옆에 삭제 버튼을 생성하여 todo를 삭제할 수 있는 `삭제 기능을 추가`해주세요!
+
+
+https://user-images.githubusercontent.com/100702397/234976913-6f3017d0-9c66-4c5f-bd9b-8ee60cc3f84a.mp4
+
 
 <br/>
 
