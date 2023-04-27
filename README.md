@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# [FE] React Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 이번 세션에서는 React Hooks 중 useEffect에 대해 다루었습니다.
 
-## Available Scripts
+### 따라서 이번 과제는 이번주 동안 배운 내용들을 모두 활용하는 문제로 구성 되어 있습니다😎
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+# [✅ 과제: Todo List 만들기 ✅]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+_src/components/TodoList.jsx 에서 진행해주세요!_
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+할 일을 입력하면 입력한 할 일이 추가 되고, 완료한 할 일을 클릭하면 취소선이 생기는 Todo List를 만들어주세요!
 
-### `npm test`
+**[ 과제 조건 ]**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 처음 렌더링 될 때 todo list에 '산책 가기', '멋사 과제', '야구 보기' 가 나타나며, '멋사 과제'는 완료되어 취소선이 있는 채로 표시 되어야 합니다.
+2. 입력창에 todo를 입력하면 입력한 todo가 todo 목록에 추가 되어야 합니다.
+3. 완료한 할 일을 클릭하면 취소선이 생성되어야 합니다.
+4. 또한 완료한 할 일의 개수를 count하여, 모든 할 일을 완료하면 "오늘 할 일을 모두 완료하셨네요!"를 출력하는 알림창이 뜨도록 해주세요! (주의: 2개의 useEffect를 사용하여 구현해주세요)
 
-### `npm run build`
+모든 조건을 만족하여 다음 영상과 같이 작동하게 하려면 주석으로 처리된 칸에 어떤 코드가 들어가야 할까요?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# [🦁 어른 사자의 길 🦁]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+위 Todo List 과제가 보다 더 Todo List 같이 동작하도록 다음 기능들을 추가해주세요!
 
-### `npm run eject`
+**[ 과제 조건 ]**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. 완료한 할 일의 개수를 count 하는 코드를 `filter 메서드를 사용하도록 수정`하여 같은 결과를 내도록 구현해주세요!
+2. 각 todo 옆에 삭제 버튼을 생성하여 todo를 삭제할 수 있는 `삭제 기능을 추가`해주세요!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**이번에도 역시 조건을 모두 만족하여 가장 먼저 과제를 lionz에 제출해주신 한 분께 커피를 사드리도록 하겠습니다😎**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> #### **과제 제출** : 과제는 `4월 30일 일요일 오후 18시 00분 전`까지 본인 repository에 push 해주신 뒤, repository url을 `lionz`에 생성되어 있는 과제 제출란에 제출해주시면 됩니다.
