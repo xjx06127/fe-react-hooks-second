@@ -26,7 +26,7 @@ function TodoList() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newTodo = {id: Date.now(), text: inputValue, completed: false};
+    const newTodo = {id: Date.now() /* 이곳에 새로운 todo의 text와 completed 속성을 설정하도록 코드를 작성해주세요 */};
     setTodos(/* 이곳에 기존의 todos에 새로 생성된 newTodo를 추가하도록 하는 코드를 작성해주세요 (hint: 배열에서의 spread 연산자 활용) */);
     setInputValue("");
   };
