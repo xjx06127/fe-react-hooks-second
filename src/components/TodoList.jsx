@@ -58,7 +58,11 @@ function TodoList() {
 
   const handleDelete = (id) => {
     const updatedTodos = todos.map((todo) => {
-      
+      if(todo.id===id){
+        return {
+          
+        }
+      }
     });
     setTodos(todos.filter((todo)=>todo.id!==id));
   };
